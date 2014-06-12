@@ -1,5 +1,5 @@
-#ifndef Vector_H
-#define Vector_H
+//#ifndef Vector_H
+//#define Vector_H
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -70,4 +70,4 @@ public:
 	}
 
 };
-#endif 
+//#endif 
