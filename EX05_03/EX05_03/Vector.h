@@ -16,43 +16,36 @@ public:
 		vectorSize = 0;
 	}
 
-	template<typename T>
 	bool empty()
 	{
 		return vectorSize = 0;
 	}
 
-	template<typename T>
 	T at(int a)
 	{
 		return elements[a];
 	}
 
-	template<typename T>
 	void push_back(T value)
 	{
 		elements[vectorSize++] = value;
 	}
 
-	template<typename T>
 	void pop_back()
 	{
 		return elements[--vectorSize];
 	}
 
-	template<typename T>
 	unsigned int size()
 	{
 		return vectorSize;
 	}
 
-	template<typename T>
 	void clear()
 	{
 		vectorSize = 0;
 	}
 
-	template<typename T>
 	void swap(Vector v2)
 	{
 		T temp[100];
